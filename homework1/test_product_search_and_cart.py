@@ -20,7 +20,7 @@ def page(context):
     yield page
     page.close()
     
-def test_example_1(page):
+def test_product_search_and_cart(page):
     page.goto("https://practicesoftwaretesting.com/")
     
     page.locator('[data-test="search-query"]').fill("Hammer")
