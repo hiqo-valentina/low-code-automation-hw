@@ -20,7 +20,7 @@ def page(context):
     yield page
     page.close()
     
-def test_second_example(page):
+def test_example(page):
     page.goto("https://practicesoftwaretesting.com/")
     
     page.locator('[data-test="search-query"]').fill("Hammer")
@@ -54,5 +54,5 @@ def test_second_example(page):
     page.locator('[data-test="nav-cart"]').click()
     
     expect(page.locator('[data-test="product-title"]')).to_contain_text(product_title)
-    expect(page.locator('[data-test="product-quantity"]')).to_have_value("4")
+    expect(page.locator('[data-test="product-quantity"]')).to_have_value("2")
     expect(page.locator('[data-test="product-price"]')).to_contain_text(product_price)
