@@ -20,7 +20,7 @@ def page(context):
     yield page
     page.close()
     
-def test_example(page):
+def test_form_input_validation(page):
     test_first_name = "test name"
     test_last_name = "test last name"
     test_age = "18"
