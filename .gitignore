@@ -1,13 +1,9 @@
 Thumbs.db
-
 *.log
 *.tmp
 *.env
-
 __pycache__
 *.py[cod]
-
 venv/
 env/
-
 .vscode/
