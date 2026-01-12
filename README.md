@@ -10,7 +10,7 @@ It demonstrates UI and API testing scenarios.
    - Search, sort and add products to cart. 
    - Verify product title, quantity and price.
 
-2. Form Validation Test* 
+2. Form Validation Test 
    - Fill out a sample form and submit.  
    - Verify all input values are displayed correctly.
 
